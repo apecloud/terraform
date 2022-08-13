@@ -32,11 +32,6 @@ import (
 	"syscall"
 )
 
-/*
-   #include <stdlib.h>
-*/
-import "C"
-
 const (
 	// EnvCLI is the environment variable name to set additional CLI args.
 	EnvCLI = "TF_CLI_ARGS"
